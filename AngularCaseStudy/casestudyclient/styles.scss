@@ -1,0 +1,80 @@
+// custom theme
+@import "custom-theme.scss";
+
+.my-primary-text {
+  color: mat-color($my-app-primary);
+}
+
+.my-accent-text {
+  color: mat-color($my-app-accent);
+}
+
+.margin-right-2 {
+  margin-right: 2vw !important;
+}
+
+mat-list-item:nth-child(even){
+  background-color:white;
+}
+
+mat-list-item:nth-child(odd) {
+  background-color:#eeeeee;
+}
+
+.padtop15 {
+  padding-top: 15%;
+}
+
+.material-icons.addicon {
+  font-size: 10vw;
+  position:absolute;
+  bottom:4vh;
+  right:8vw;
+}
+
+mat-form-field {
+  margin-left: 5%;width:90%;
+}
+
+table {
+  width: 100%;
+}
+
+.center-header{
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bolder;
+  margin-left:25px;
+}
+
+.mat-cell {
+  text-align: center;
+  justify-content:center;
+}
+
+.mat-row:nth-child(odd){
+  background-color:#eeeeee;
+  text-align: center;
+}
+
+.mat-row.ng-star-inserted:nth-child(even) {
+  background-color: white;
+  text-align: center;
+}
+
+button.mat-sort-header-button {
+  margin-left: 5vw;
+}
+
+.custommodal {
+  mat-dialog-container {
+    background-color: white;
+    color: mat-color($my-app-primary);
+    font-weight: bold;
+  }
+}
+
+#deleteNo, #deleteYes {
+  background-color: mat-color($my-app-primary);
+  color: white;
+}
